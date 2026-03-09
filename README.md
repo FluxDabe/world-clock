@@ -4,8 +4,11 @@ A simple world clock website showing multiple time zones using HTML, CSS and Jav
 
 ## Cities
 - Hanoi
-- Yangon
 - Seoul
 - Tokyo
 - Singapore
-- Kuala Lumpur
+- New York
+- London
+- Paris
+- Sydney
+- Beijing
