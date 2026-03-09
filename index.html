@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>World Clock</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<div class="container">
+
+    <h1>🌍 World Clock</h1>
+
+    <div class="mode">
+        Display Mode:
+        <select id="modeSelect">
+            <option value="both">Both</option>
+            <option value="digital">Digital</option>
+            <option value="analog">Analog</option>
+        </select>
+    </div>
+
+    <div class="clock-grid">
+
+        <div class="clock-card" data-timezone="Asia/Ho_Chi_Minh">
+            <h3>VN Hanoi, Vietnam</h3>
+            <div class="digital"></div>
+            <div class="date"></div>
+            <canvas width="200" height="200"></canvas>
+        </div>
+
+        <div class="clock-card" data-timezone="Asia/Seoul">
+            <h3>KR Seoul, Korea</h3>
+            <div class="digital"></div>
+            <div class="date"></div>
+            <canvas width="200" height="200"></canvas>
+        </div>
+
+        <div class="clock-card" data-timezone="Asia/Tokyo">
+            <h3>JP Tokyo, Japan</h3>
+            <div class="digital"></div>
+            <div class="date"></div>
+            <canvas width="200" height="200"></canvas>
+        </div>
+
+        <div class="clock-card" data-timezone="Asia/Singapore">
+            <h3>SG Singapore</h3>
+            <div class="digital"></div>
+            <div class="date"></div>
+            <canvas width="200" height="200"></canvas>
+        </div>
+
+        <div class="clock-card" data-timezone="America/New_York">
+            <h3>US New York, USA</h3>
+            <div class="digital"></div>
+            <div class="date"></div>
+            <canvas width="200" height="200"></canvas>
+        </div>
+
+        <div class="clock-card" data-timezone="Europe/London">
+            <h3>UK London, United Kingdom</h3>
+            <div class="digital"></div>
+            <div class="date"></div>
+            <canvas width="200" height="200"></canvas>
+        </div>
+
+        <div class="clock-card" data-timezone="Europe/Paris">
+            <h3>FR Paris, France</h3>
+            <div class="digital"></div>
+            <div class="date"></div>
+            <canvas width="200" height="200"></canvas>
+        </div>
+
+        <div class="clock-card" data-timezone="Australia/Sydney">
+            <h3>AU Sydney, Australia</h3>
+            <div class="digital"></div>
+            <div class="date"></div>
+            <canvas width="200" height="200"></canvas>
+        </div>
+
+        <div class="clock-card" data-timezone="Asia/Shanghai">
+            <h3>CN Beijing, China</h3>
+            <div class="digital"></div>
+            <div class="date"></div>
+            <canvas width="200" height="200"></canvas>
+        </div>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

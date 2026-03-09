@@ -1,0 +1,50 @@
+body{
+    margin:0;
+    font-family: Arial;
+    background: linear-gradient(135deg,#6c77d7,#7a58b7);
+    color:white;
+}
+
+.container{
+    text-align:center;
+    padding:40px;
+}
+
+h1{
+    margin-bottom:10px;
+}
+
+.mode{
+    margin-bottom:30px;
+}
+
+.clock-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+    max-width:1000px;
+    margin:auto;
+}
+
+.clock-card{
+    background:white;
+    color:black;
+    border-radius:15px;
+    padding:20px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.2);
+}
+
+.digital{
+    font-size:28px;
+    font-weight:bold;
+    margin:10px 0;
+}
+
+.date{
+    font-size:14px;
+    color:#555;
+}
+
+canvas{
+    margin-top:10px;
+}
